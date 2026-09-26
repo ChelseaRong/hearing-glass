@@ -385,18 +385,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-68",
-					"maxclass" : "jit.pwindow",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 140.000003337860107, 338.571436643600464, 284.285721063613892, 184.285718679428101 ],
-					"sync" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "invis-final.mp4",
@@ -530,14 +518,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-68", 0 ],
-					"order" : 2,
-					"source" : [ "obj-67", 0 ]
 				}
 
 			}
